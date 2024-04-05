@@ -20,7 +20,7 @@ const Body=()=>{
     //    console.log("useeffect")
     },[])
     const fetchData= async()=>{
-        const res= await fetch('https://proxy.cors.sh/https://foodfire.onrender.com/api/restaurants?lat=21.1702401&lng=72.83106070000001&page_type=DESKTOP_WEB_LISTING')
+        const res= await fetch('https://foodfire.onrender.com/api/restaurants?lat=21.1702401&lng=72.83106070000001&page_type=DESKTOP_WEB_LISTING')
 
         let data= await res.json();
        //   console.log(data.data.cards[1].card.card.gridElements.infoWithStyle.restaurants)
